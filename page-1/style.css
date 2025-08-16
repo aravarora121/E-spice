@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100vw;
+    max-height: 100vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background: linear-gradient(to top right,purple,rgb(234, 0, 255),red,orange,yellow,white);
+    background-size: 500% 500%;    
+    animation-name: animation;
+    animation-duration:5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+
+@keyframes animation{
+    0%{
+        background-position: 0 0%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+} 
+
+.forms{
+    background: rgba(255, 255, 255, 0.37); 
+    backdrop-filter: blur(2px);
+    padding: 20px;
+    margin: 10px;
+    position: absolute;
+    top: 23%;
+    left: 35%;
+    border-radius: 40px;
+    font-size: x-large;
+    width: 350px;
+}
+.input{
+    width: 95%;
+    height: 30px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.199);
+}
+.button{
+    width: 87%;
+    height: 30px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0.199);
+    position: relative;
+    background: linear-gradient(90deg, #ff99006e, #ff562275);
+    color: white;
+    left: 11px;
+    transition-duration: 1.5s;
+}
+.button:hover{
+    position: relative;
+    bottom: 5px;
+    border-radius: 200px;
+    border-color:  rgb(255, 255, 255);;
+}

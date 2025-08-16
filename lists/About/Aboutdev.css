@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    height: 90vh;
+    background: linear-gradient(-45deg, #00ffae, #00a2ff, #00c6ff, #6a11cb, rgb(255, 0, 212), rgb(255, 0, 64),red,yellow);
+    background-size: 200% 200%;
+    animation-name: gradientShift;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    color: white;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 0% 50%; }
+}

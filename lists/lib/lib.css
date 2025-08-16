@@ -1,0 +1,380 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    max-width: 99vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background: linear-gradient(to top right,purple,rgb(234, 0, 255),red,orange,yellow,white);
+    background-size: 500% 500%;    
+    animation-name: animation;
+    animation-duration:5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    max-width: 99vw;
+}
+
+@keyframes animation{
+    0%{
+        background-position: 0 0%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+} 
+
+.percy{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.books-container{
+    display: flex;
+}
+
+.books img{
+    width: 210px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.book-1::after {
+    content: "If you want more information please find the URL below : https://www.youtube.com/watch?v=LYtGbCrVpp8";
+    position: absolute;
+    top: 299px;
+    left: 60%;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px 5px;
+    max-width:450px;
+}
+
+.book-1:hover::after {
+    opacity: 1;
+}
+.book-2::after {
+    content: "If you want more information please find the URL below : https://www.youtube.com/watch?v=lpBFcj-33Pk";
+    position: absolute;
+    top: 299px;
+    left: 60%;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px 5px;
+    max-width:450px;
+}
+
+.book-2:hover::after {
+    opacity: 1;
+}
+.book-3::after {
+    content: "If you want more information please find the URL below : https://www.youtube.com/watch?v=riq9Axcn48c";
+    position: absolute;
+    top: 299px;
+    left: 60%;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px 5px;
+    max-width:450px;
+}
+
+.book-3:hover::after {
+    opacity: 1;
+}
+.book-4::after {
+    content: "If you want more information please find the URL below : https://www.youtube.com/watch?v=VARm_dP3TXM";
+    position: absolute;
+    top: 299px;
+    left: 60%;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px 5px;
+    max-width:450px;
+}
+
+.book-4:hover::after {
+    opacity: 1;
+}
+.book-5::after {
+    content: "If you want more information please find the URL below : https://www.youtube.com/watch?v=jVATM5WWsDw";
+    position: absolute;
+    top: 299px;
+    left: 60%;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px 5px;
+    max-width:450px;
+}
+
+.book-5:hover::after {
+    opacity: 1;
+}
+
+/* ronaldByre */
+
+
+.RonaldByre{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.books-container-2{
+    display: flex;
+}
+
+.books img{
+    width: 210px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.book-11::after {
+    content: "If you want more information please find the URL below : https://www.youtube.com/watch?v=nE11U5iBnH0";
+    position: absolute;
+    top: 299px;
+    left: 60%;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px 5px;
+    max-width:450px;
+}
+
+.book-11:hover::after {
+    opacity: 1;
+}
+.book-22::after {
+    content: "If you want more information please find the URL below :https://www.youtube.com/watch?v=HShyUle9dnE";
+    position: absolute;
+    top: 299px;
+    left: 60%;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px 5px;
+    max-width:450px;
+}
+
+.book-22:hover::after {
+    opacity: 1;
+}
+.book-33::after {
+    content: "If you want more information please find the URL below : https://www.youtube.com/watch?v=80kuiBq95So";
+    position: absolute;
+    top: 299px;
+    left: 60%;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px 5px;
+    max-width:450px;
+}
+
+.book-33:hover::after {
+    opacity: 1;
+}
+.book-44::after {
+    content: "If you want more information please find the URL below : https://www.youtube.com/watch?v=tAiy66Xrsz4";
+    position: absolute;
+    top: 299px;
+    left: 60%;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px 5px;
+    max-width:450px;
+}
+
+.book-44:hover::after {
+    opacity: 1;
+}
+.book-55::after {
+    content: "If you want more information please find the URL below : https://www.youtube.com/watch?v=LLAaW1EgyY8";
+    position: absolute;
+    top: 299px;
+    left: 60%;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px 5px;
+    max-width:450px;
+}
+
+.book-55:hover::after {
+    opacity: 1;
+}
+
+
+/* harry-Potter */
+
+.HarryPotter{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.books-container-3{
+    display: flex;
+}
+
+.books img{
+    width: 210px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.book-111::after {
+    content: "If you want more information please find the URL below : https://www.youtube.com/watch?v=VwErvYgoH70";
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px 5px;
+    max-width:450px;
+}
+
+.book-111:hover::after {
+    opacity: 1;
+}
+.book-222::after {
+    content: "If you want more information please find the URL below :https://www.youtube.com/watch?v=17ywQS6XO-Mo";
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px 5px;
+    max-width:450px;
+}
+
+.book-222:hover::after {
+    opacity: 1;
+}
+.book-333::after {
+    content: "If you want more information please find the URL below : https://www.youtube.com/watch?v=OLKgOKT6tGQ";
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px 5px;
+    max-width:450px;
+}
+
+.book-333:hover::after {
+    opacity: 1;
+}
+.book-444::after {
+    content: "If you want more information please find the URL below : https://www.youtube.com/watch?v=3Jnz06WkPbg";
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px 5px;
+    max-width:450px;
+}
+
+.book-444:hover::after {
+    opacity: 1;
+}
+.book-555::after {
+    content: "If you want more information please find the URL below : https://www.youtube.com/watch?v=B6kmc1dGMJU&t=1s";
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px 5px;
+    max-width:450px;
+}
+
+.book-555:hover::after {
+    opacity: 1;
+}
+.book-666::after {
+    content: "If you want more information please find the URL below : https://www.youtube.com/watch?v=B6kmc1dGMJU&t=1s";
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px 5px;
+    max-width:450px;
+}
+
+.book-666:hover::after {
+    opacity: 1;
+}
+.book-777::after {
+    content: "If you want more information please find the URL below : https://www.youtube.com/watch?v=B6kmc1dGMJU&t=1s";
+    position: absolute;
+    top: 299px;
+    left: 60%;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px 5px;
+    max-width:450px;
+}
+
+.book-777:hover::after {
+    opacity: 1;
+}
